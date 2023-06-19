@@ -1,0 +1,40 @@
+.container {
+  background-color: black;
+  height: 100vh;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.play {
+  height: 50vh;
+}
+
+.head-title {
+  color: white;
+  height: 100px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.image-wrapper {
+  height: 200px;
+  width: 300px;
+}
+
+.image-wrapper img {
+  width: 100%;
+}
+
+.image-wrapper img:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.image-wrapper img:active {
+  transform: scale(0.8);
+}

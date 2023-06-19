@@ -1,0 +1,23 @@
+h2 {
+  color: white;
+  padding: 10px;
+}
+.tutorial-card-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tutorial-card-wrapper div {
+  padding: 10px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rules-wrapper {
+  background-color: white;
+}
